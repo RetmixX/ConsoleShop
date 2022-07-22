@@ -6,12 +6,6 @@ import Shop.Products.*;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
-/*
-    Информация о пользователе - buyer.toString();
-    Список товаров - switch
-
- */
-
 public class Program {
 
     public static void main(String[] args)

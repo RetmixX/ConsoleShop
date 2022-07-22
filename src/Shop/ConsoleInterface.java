@@ -118,7 +118,7 @@ public class ConsoleInterface {
         System.out.println("Exit...");
     }
 
-    private static void ShowProducts(Product[] products)
+    private void ShowProducts(Product[] products)
     {
         for (var i = 0; i<products.length;i++)
         {
@@ -126,7 +126,7 @@ public class ConsoleInterface {
         }
     }
 
-    private static void ShowBasket(Buyer buyer)
+    private void ShowBasket(Buyer buyer)
     {
         System.out.println("Basket");
         for (var i = 0; i<buyer.getBasket().length; i++)
@@ -135,7 +135,7 @@ public class ConsoleInterface {
         }
     }
 
-    private static void ShowHelp(){
+    private void ShowHelp(){
         System.out.println("/exit\n/profile\n/shop\n/basket\n/addBasket\n/removeBasket\n/buy\n/infoProduct\n/help\n");
     }
 }
